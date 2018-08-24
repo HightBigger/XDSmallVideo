@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5D5153212FA64600FDFDCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5152212FA64600FDFDCC /* AppDelegate.m */; };
+		AD5D5156212FA64600FDFDCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5155212FA64600FDFDCC /* ViewController.m */; };
+		AD5D5159212FA64600FDFDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5D5157212FA64600FDFDCC /* Main.storyboard */; };
+		AD5D515B212FA64700FDFDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5D515A212FA64700FDFDCC /* Assets.xcassets */; };
+		AD5D515E212FA64700FDFDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5D515C212FA64700FDFDCC /* LaunchScreen.storyboard */; };
+		AD5D5161212FA64700FDFDCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5160212FA64700FDFDCC /* main.m */; };
+		AD5D5172212FA6E800FDFDCC /* XDSmallVideoRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5169212FA6E800FDFDCC /* XDSmallVideoRecordController.m */; };
+		AD5D5173212FA6E800FDFDCC /* XDSmallVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */; };
+		AD5D5174212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */; };
+		AD5D5175212FA6E800FDFDCC /* XDSmallVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516E212FA6E800FDFDCC /* XDSmallVideoManager.m */; };
+		AD5D5176212FA6E800FDFDCC /* XDVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516F212FA6E800FDFDCC /* XDVideoPlayerController.m */; };
+		AD5D517C212FB03A00FDFDCC /* smallvideo_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5D517A212FB03A00FDFDCC /* smallvideo_switch@2x.png */; };
+		AD5D517D212FB03A00FDFDCC /* smallvideo_switch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5D517B212FB03A00FDFDCC /* smallvideo_switch@3x.png */; };
+		AD5D517F212FDE8800FDFDCC /* smallvideo_focus.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5D517E212FDE8800FDFDCC /* smallvideo_focus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD5D514E212FA64600FDFDCC /* XDSmallVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDSmallVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5D5151212FA64600FDFDCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD5D5152212FA64600FDFDCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD5D5154212FA64600FDFDCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD5D5155212FA64600FDFDCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD5D5158212FA64600FDFDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD5D515A212FA64700FDFDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5D515D212FA64700FDFDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD5D515F212FA64700FDFDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5D5160212FA64700FDFDCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD5D5168212FA6E800FDFDCC /* XDVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoPlayerController.h; sourceTree = "<group>"; };
+		AD5D5169212FA6E800FDFDCC /* XDSmallVideoRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoRecordController.m; sourceTree = "<group>"; };
+		AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoPlayer.m; sourceTree = "<group>"; };
+		AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKYSmallVideoProgressView.m; sourceTree = "<group>"; };
+		AD5D516C212FA6E800FDFDCC /* XDSmallVideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoProgressView.h; sourceTree = "<group>"; };
+		AD5D516D212FA6E800FDFDCC /* XDSmallVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoPlayer.h; sourceTree = "<group>"; };
+		AD5D516E212FA6E800FDFDCC /* XDSmallVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoManager.m; sourceTree = "<group>"; };
+		AD5D516F212FA6E800FDFDCC /* XDVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDVideoPlayerController.m; sourceTree = "<group>"; };
+		AD5D5170212FA6E800FDFDCC /* XDSmallVideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoManager.h; sourceTree = "<group>"; };
+		AD5D5171212FA6E800FDFDCC /* XDSmallVideoRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoRecordController.h; sourceTree = "<group>"; };
+		AD5D5177212FA8EF00FDFDCC /* XDSmallVideoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoDefine.h; sourceTree = "<group>"; };
+		AD5D517A212FB03A00FDFDCC /* smallvideo_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallvideo_switch@2x.png"; sourceTree = "<group>"; };
+		AD5D517B212FB03A00FDFDCC /* smallvideo_switch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smallvideo_switch@3x.png"; sourceTree = "<group>"; };
+		AD5D517E212FDE8800FDFDCC /* smallvideo_focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallvideo_focus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5D514B212FA64600FDFDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5D5145212FA64600FDFDCC = {
+			isa = PBXGroup;
+			children = (
+				AD5D5150212FA64600FDFDCC /* XDSmallVideo */,
+				AD5D514F212FA64600FDFDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5D514F212FA64600FDFDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5D514E212FA64600FDFDCC /* XDSmallVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5D5150212FA64600FDFDCC /* XDSmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				AD5D5151212FA64600FDFDCC /* AppDelegate.h */,
+				AD5D5152212FA64600FDFDCC /* AppDelegate.m */,
+				AD5D5154212FA64600FDFDCC /* ViewController.h */,
+				AD5D5155212FA64600FDFDCC /* ViewController.m */,
+				AD5D5157212FA64600FDFDCC /* Main.storyboard */,
+				AD5D5167212FA6A800FDFDCC /* XDSmallVideo */,
+				AD5D515A212FA64700FDFDCC /* Assets.xcassets */,
+				AD5D515C212FA64700FDFDCC /* LaunchScreen.storyboard */,
+				AD5D515F212FA64700FDFDCC /* Info.plist */,
+				AD5D5160212FA64700FDFDCC /* main.m */,
+			);
+			path = XDSmallVideo;
+			sourceTree = "<group>";
+		};
+		AD5D5167212FA6A800FDFDCC /* XDSmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				AD5D517E212FDE8800FDFDCC /* smallvideo_focus.png */,
+				AD5D517A212FB03A00FDFDCC /* smallvideo_switch@2x.png */,
+				AD5D517B212FB03A00FDFDCC /* smallvideo_switch@3x.png */,
+				AD5D5177212FA8EF00FDFDCC /* XDSmallVideoDefine.h */,
+				AD5D5171212FA6E800FDFDCC /* XDSmallVideoRecordController.h */,
+				AD5D5169212FA6E800FDFDCC /* XDSmallVideoRecordController.m */,
+				AD5D5170212FA6E800FDFDCC /* XDSmallVideoManager.h */,
+				AD5D516E212FA6E800FDFDCC /* XDSmallVideoManager.m */,
+				AD5D516D212FA6E800FDFDCC /* XDSmallVideoPlayer.h */,
+				AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */,
+				AD5D516C212FA6E800FDFDCC /* XDSmallVideoProgressView.h */,
+				AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */,
+				AD5D5168212FA6E800FDFDCC /* XDVideoPlayerController.h */,
+				AD5D516F212FA6E800FDFDCC /* XDVideoPlayerController.m */,
+			);
+			path = XDSmallVideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5D514D212FA64600FDFDCC /* XDSmallVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5D5164212FA64700FDFDCC /* Build configuration list for PBXNativeTarget "XDSmallVideo" */;
+			buildPhases = (
+				AD5D514A212FA64600FDFDCC /* Sources */,
+				AD5D514B212FA64600FDFDCC /* Frameworks */,
+				AD5D514C212FA64600FDFDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDSmallVideo;
+			productName = XDSmallVideo;
+			productReference = AD5D514E212FA64600FDFDCC /* XDSmallVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5D5146212FA64600FDFDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = nationsky;
+				TargetAttributes = {
+					AD5D514D212FA64600FDFDCC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AD5D5149212FA64600FDFDCC /* Build configuration list for PBXProject "XDSmallVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5D5145212FA64600FDFDCC;
+			productRefGroup = AD5D514F212FA64600FDFDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5D514D212FA64600FDFDCC /* XDSmallVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5D514C212FA64600FDFDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5D515E212FA64700FDFDCC /* LaunchScreen.storyboard in Resources */,
+				AD5D515B212FA64700FDFDCC /* Assets.xcassets in Resources */,
+				AD5D5159212FA64600FDFDCC /* Main.storyboard in Resources */,
+				AD5D517D212FB03A00FDFDCC /* smallvideo_switch@3x.png in Resources */,
+				AD5D517F212FDE8800FDFDCC /* smallvideo_focus.png in Resources */,
+				AD5D517C212FB03A00FDFDCC /* smallvideo_switch@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5D514A212FA64600FDFDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5D5156212FA64600FDFDCC /* ViewController.m in Sources */,
+				AD5D5173212FA6E800FDFDCC /* XDSmallVideoPlayer.m in Sources */,
+				AD5D5161212FA64700FDFDCC /* main.m in Sources */,
+				AD5D5176212FA6E800FDFDCC /* XDVideoPlayerController.m in Sources */,
+				AD5D5172212FA6E800FDFDCC /* XDSmallVideoRecordController.m in Sources */,
+				AD5D5174212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m in Sources */,
+				AD5D5153212FA64600FDFDCC /* AppDelegate.m in Sources */,
+				AD5D5175212FA6E800FDFDCC /* XDSmallVideoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD5D5157212FA64600FDFDCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5D5158212FA64600FDFDCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD5D515C212FA64700FDFDCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5D515D212FA64700FDFDCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD5D5162212FA64700FDFDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD5D5163212FA64700FDFDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5D5165212FA64700FDFDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E2CU52X6UR;
+				INFOPLIST_FILE = XDSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nationsky.appnest.plus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "48bf3562-8b98-4b50-b05a-0d0c5ea60727";
+				PROVISIONING_PROFILE_SPECIFIER = "appnest.plus dev";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5D5166212FA64700FDFDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XDSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nationsky.appnest.plus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5D5149212FA64600FDFDCC /* Build configuration list for PBXProject "XDSmallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5D5162212FA64700FDFDCC /* Debug */,
+				AD5D5163212FA64700FDFDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5D5164212FA64700FDFDCC /* Build configuration list for PBXNativeTarget "XDSmallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5D5165212FA64700FDFDCC /* Debug */,
+				AD5D5166212FA64700FDFDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5D5146212FA64600FDFDCC /* Project object */;
+}
