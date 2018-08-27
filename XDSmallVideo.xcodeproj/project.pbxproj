@@ -15,7 +15,7 @@
 		AD5D5161212FA64700FDFDCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5160212FA64700FDFDCC /* main.m */; };
 		AD5D5172212FA6E800FDFDCC /* XDSmallVideoRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D5169212FA6E800FDFDCC /* XDSmallVideoRecordController.m */; };
 		AD5D5173212FA6E800FDFDCC /* XDSmallVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */; };
-		AD5D5174212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */; };
+		AD5D5174212FA6E800FDFDCC /* XDSmallVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516B212FA6E800FDFDCC /* XDSmallVideoProgressView.m */; };
 		AD5D5175212FA6E800FDFDCC /* XDSmallVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516E212FA6E800FDFDCC /* XDSmallVideoManager.m */; };
 		AD5D5176212FA6E800FDFDCC /* XDVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D516F212FA6E800FDFDCC /* XDVideoPlayerController.m */; };
 		AD5D517C212FB03A00FDFDCC /* smallvideo_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD5D517A212FB03A00FDFDCC /* smallvideo_switch@2x.png */; };
@@ -37,7 +37,7 @@
 		AD5D5168212FA6E800FDFDCC /* XDVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDVideoPlayerController.h; sourceTree = "<group>"; };
 		AD5D5169212FA6E800FDFDCC /* XDSmallVideoRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoRecordController.m; sourceTree = "<group>"; };
 		AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoPlayer.m; sourceTree = "<group>"; };
-		AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKYSmallVideoProgressView.m; sourceTree = "<group>"; };
+		AD5D516B212FA6E800FDFDCC /* XDSmallVideoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoProgressView.m; sourceTree = "<group>"; };
 		AD5D516C212FA6E800FDFDCC /* XDSmallVideoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoProgressView.h; sourceTree = "<group>"; };
 		AD5D516D212FA6E800FDFDCC /* XDSmallVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSmallVideoPlayer.h; sourceTree = "<group>"; };
 		AD5D516E212FA6E800FDFDCC /* XDSmallVideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSmallVideoManager.m; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				AD5D516D212FA6E800FDFDCC /* XDSmallVideoPlayer.h */,
 				AD5D516A212FA6E800FDFDCC /* XDSmallVideoPlayer.m */,
 				AD5D516C212FA6E800FDFDCC /* XDSmallVideoProgressView.h */,
-				AD5D516B212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m */,
+				AD5D516B212FA6E800FDFDCC /* XDSmallVideoProgressView.m */,
 				AD5D5168212FA6E800FDFDCC /* XDVideoPlayerController.h */,
 				AD5D516F212FA6E800FDFDCC /* XDVideoPlayerController.m */,
 			);
@@ -193,7 +193,7 @@
 				AD5D5161212FA64700FDFDCC /* main.m in Sources */,
 				AD5D5176212FA6E800FDFDCC /* XDVideoPlayerController.m in Sources */,
 				AD5D5172212FA6E800FDFDCC /* XDSmallVideoRecordController.m in Sources */,
-				AD5D5174212FA6E800FDFDCC /* NSKYSmallVideoProgressView.m in Sources */,
+				AD5D5174212FA6E800FDFDCC /* XDSmallVideoProgressView.m in Sources */,
 				AD5D5153212FA64600FDFDCC /* AppDelegate.m in Sources */,
 				AD5D5175212FA6E800FDFDCC /* XDSmallVideoManager.m in Sources */,
 			);
